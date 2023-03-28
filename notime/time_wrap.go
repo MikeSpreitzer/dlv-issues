@@ -1,4 +1,4 @@
-package notime
+package main
 
 import (
 	"time"

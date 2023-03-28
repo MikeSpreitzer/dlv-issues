@@ -1,4 +1,4 @@
-package notime
+package main
 
 import (
 	"testing"
@@ -13,9 +13,12 @@ type WrapPointWrap struct {
 	Point *Time
 }
 
-func TestNoTime(t *testing.T) {
+func TestGood(t *testing.T) {
 	var mg MyGood
 	t.Logf("mg=%+v", mg)
+}
+
+func TestBad(t *testing.T) {
 	var wpw WrapPointWrap
 	t.Logf("wpw=%+v", wpw)
 }
